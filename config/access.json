@@ -1,0 +1,87 @@
+{
+    "sites":[
+        
+        {
+            "site" : "main", 
+            "access" : "private", 
+            "role" : "001"
+        },
+        {
+            "site" : "emp_list", 
+            "access" : "private", 
+            "role" : "001"
+        },
+        {
+            "site" : "emp_register", 
+            "access" : "private", 
+            "role" : "001"
+        },
+        {
+            "site" : "user", 
+            "access" : "private", 
+            "role" : "001"
+        },
+        {
+            "site" : "perfil", 
+            "access" : "private", 
+            "role" : "002"
+        },
+        {
+            "site" : "areaController", 
+            "access" : "private", 
+            "role" : "002"
+        },
+        {
+            "site" : "perfil", 
+            "access" : "private", 
+            "role" : "003"
+        },
+        {
+            "site" : "user_own", 
+            "access" : "private", 
+            "role" : "003"
+        },
+        
+        {
+            "site" : "foda_own", 
+            "access" : "private", 
+            "role" : "002"
+        },
+        {
+            "site" : "foda_own", 
+            "access" : "private", 
+            "role" : "003"
+        },
+        {
+            "site" : "emp_own", 
+            "access" : "private", 
+            "role" : "002"
+        },
+        {
+            "site" : "emp_own", 
+            "access" : "private", 
+            "role" : "003"
+        },
+        {
+            "site" : "matriz_own", 
+            "access" : "private", 
+            "role" : "002"
+        },
+        {
+            "site" : "matriz_own", 
+            "access" : "private", 
+            "role" : "003"
+        },
+        {
+            "site" : "", 
+            "access" : "public", 
+            "role" : ""
+        }
+    ],
+
+    "default-sites":{
+        "001": "main",
+        "002": "perfil"
+        
+    }
+}
